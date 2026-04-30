@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Profil de recherche et travaux de Prénom Nom" />
+  <title>Prénom Nom — Research Profile</title>
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --text: #1f2933;
+      --muted: #667085;
+      --card: #ffffff;
+      --line: #e5e7eb;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+
+    header {
+      margin-bottom: 40px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 8vw, 64px);
+      line-height: 1.05;
+      margin: 0 0 18px;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      color: var(--muted);
+      max-width: 720px;
+      margin: 0;
+    }
+
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 28px;
+      margin: 22px 0;
+      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.04);
+    }
+
+    h2 {
+      font-size: 22px;
+      margin: 0 0 14px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .paper {
+      padding: 18px;
+      border-radius: 16px;
+      background: #fafafa;
+      border: 1px solid var(--line);
+    }
+
+    .paper-title {
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 16px;
+      border-radius: 12px;
+      background: var(--text);
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--line);
+    }
+
+    footer {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 34px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="tag">Research profile</div>
+      <h1>Prénom Nom</h1>
+      <p class="subtitle">
+        Researcher / Engineer working on [your field], with interests in [topic 1],
+        [topic 2], and [topic 3].
+      </p>
+
+      <div class="links">
+        <a class="button" href="mailto:your.email@example.com">Contact</a>
+        <a class="button secondary" href="https://www.linkedin.com/in/your-profile/">LinkedIn</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am currently working as [your role] at [institution/company]. My work focuses on
+        [short description of your research/work].
+      </p>
+      <p>
+        This page is intended as a lightweight public reference for my research interests,
+        publications, and selected projects.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research interests</h2>
+      <ul>
+        <li>[Research topic 1]</li>
+        <li>[Research topic 2]</li>
+        <li>[Research topic 3]</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Publication</h2>
+      <div class="paper">
+        <div class="paper-title">“Title of your paper”</div>
+        <div class="meta">
+          Prénom Nom, Co-author Name, Co-author Name.<br />
+          Submitted / accepted / forthcoming, 2026.<br />
+          Preprint available upon request.
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Selected work</h2>
+      <ul>
+        <li>
+          <strong>[Project name]</strong> — short description of the project, method, or result.
+        </li>
+        <li>
+          <strong>[Project name]</strong> — short description of another relevant work item.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        For questions about my research or collaborations, feel free to contact me at
+        <a href="mailto:your.email@example.com">your.email@example.com</a>.
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Prénom Nom. Last updated April 2026.
+    </footer>
+  </main>
+</body>
+</html>
