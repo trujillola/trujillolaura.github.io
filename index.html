@@ -25,7 +25,6 @@
     .meta{color:var(--muted);font-size:15px}
     .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
     .button{display:inline-flex;align-items:center;justify-content:center;padding:10px 16px;border-radius:12px;background:var(--text);color:#fff;font-weight:700}
-    .button.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}
     footer{color:var(--muted);font-size:14px;margin-top:34px;text-align:center}
   </style>
 </head>
@@ -68,33 +67,48 @@
     <section>
       <h2>Research work</h2>
       <p>
-        I proposed the <strong>Personalized and Resource-aware Multimodal Routing Problem (PRMRP)</strong>, a framework
-        for multimodal route planning integrating user preferences, constraints, and resource allocation.
+        My PhD focuses on multimodal route allocation in Mobility-as-a-Service (MaaS) systems, where heterogeneous
+        transportation services (public transport, shared mobility, personal vehicles) must be combined to generate
+        personalized itineraries under user constraints and preferences (time, cost, emissions, comfort).
       </p>
       <p>
-        I developed distributed approaches based on:
+        In this context, I introduced the <strong>Personalized and Resource-aware Multimodal Routing Problem (PRMRP)</strong>,
+        a formal framework integrating route composition, resource allocation, and user preferences in a unified model.
+        The goal is to generate feasible and efficient itineraries while accounting for decentralization and privacy constraints.
       </p>
-      <ul>
-        <li>Distributed Constraint Optimization Problems (DCOP)</li>
-        <li>Divide-and-Coordinate (dual decomposition with Lagrangian relaxation)</li>
-      </ul>
       <p>
-        These methods achieve near-optimal solutions while improving scalability and preserving privacy compared to
-        centralized optimization approaches.
+        My work first explored a <strong>DCOP (Distributed Constraint Optimization Problem)</strong> formulation, modeling
+        itinerary construction as a set of coordinated local decisions. This allows decentralized reasoning while preserving
+        the structure of the global optimization problem.
+      </p>
+      <p>
+        Building on this, I developed <strong>Divide-and-Coordinate approaches</strong> based on dual decomposition and
+        Lagrangian relaxation, enabling scalable and efficient distributed optimization with limited coordination between agents.
+      </p>
+      <p>
+        Current and future directions include the integration of shared resources and the exploration of
+        <strong>combinatorial auction mechanisms</strong> as an alternative decentralized coordination paradigm.
       </p>
     </section>
 
     <section>
-      <h2>Publications & submissions</h2>
+      <h2>Publications</h2>
       <div class="paper">
         <div class="paper-title">
-          Allocation de trajets multimodaux dans un cadre MaaS par systèmes multi-agents adaptatifs
+          Distributed Constraint Optimization and Divide-and-Coordinate Methods for Multi-modal Urban Transportation
         </div>
         <div class="meta">
           Laura Trujillo, Elsy Kaddoum, Gauthier Picard<br />
-          IJCAI-ECAI 2026 (submitted, under revision)<br />
-          CNIA 2026 (submitted)<br />
-          OptLearnMAS (AAMAS 2026) (submitted)
+          OptLearnMAS (AAMAS), 2026
+        </div>
+      </div>
+      <div class="paper" style="margin-top:12px;">
+        <div class="paper-title">
+          Approche par optimisation sous contraintes distribuée Divide-and-Coordinate pour le transport urbain multimodal
+        </div>
+        <div class="meta">
+          Laura Trujillo, Elsy Kaddoum, Gauthier Picard<br />
+          CNIA (Conférence Nationale en Intelligence Artificielle), 2026
         </div>
       </div>
     </section>
@@ -105,12 +119,6 @@
         <li>Teaching assistant — Distributed Optimization (Master 2 ISMAG, Université Toulouse Jean Jaurès)</li>
         <li>Teaching assistant — Multi-Agent Systems (Master 2 ISMAG, Université Toulouse Jean Jaurès)</li>
         <li>Teaching assistant — Multi-Agent Systems (Master 1 IAFA, Université Paul Sabatier)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Other activities</h2>
-      <ul>
         <li>Hackathon supervision — ISAE-SUPAERO</li>
       </ul>
     </section>
